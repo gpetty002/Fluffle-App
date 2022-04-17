@@ -1,0 +1,140 @@
+html{
+	height: 100%vw;
+}
+body{
+	background-image: linear-gradient(rgb(96, 141, 113), #addabe);
+}
+h1{
+    color: #000;
+    font-size: 50px;
+    font-family: "Cascadia Mono", monospace;
+    text-align: center;
+}
+
+.title{
+    color: rgb(96,141,113);
+    font-size: 100px;
+    font-family: "Cascadia Mono", monospace;
+    text-align: center;
+}
+
+ul {
+	border-radius: 25px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(79,193,277,.55);
+	width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px 160px;
+  text-decoration: none;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(96,141,113);
+}
+
+.sign-up-form {
+	border-radius: 25%;
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background:  rgb(96,141,113);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1{
+	color: #addabe;
+	margin-bottom: 30px;
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: #49534d;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn
+{
+    background-color: #addabe;
+}
+.google-btn
+{
+    background-color: #addabe;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or {
+    background: rgb(96,141,113);
+    width:30px;
+    margin: -19px auto 10px;
+}
+.fluffleText{
+   position: absolute;
+   align-content: center;
+   top: 0px;
+   left: 600px;
+   width: 650px;
+}
+
+.leftbunny{
+   position: absolute;
+   top: -28px;
+   left: -12px;
+   width: 150px;
+}
+.rightbunny{
+	background: no-repeat right;
+	background-size: 150px 150px;
+	position: fixed;
+	margin-bottom: 0px;
+    bottom: 0px;
+	right: 0px;
+	width: 150px;
+}
+.contactHead{
+    color: #000;
+    font-size: 50px;
+    font-family: "Cascadia Mono", monospace;
+    text-align: left;
+}
+.contactNames{
+    color: #000;
+    font-size: 25px;
+    font-family: "Cascadia Mono", monospace;
+    text-align: left;
+}
+.paragraph{
+    font-size: 30px;
+    font-family: "Cascadia Mono", monospace;
+}
